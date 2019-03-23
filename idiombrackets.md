@@ -1,6 +1,6 @@
 
 
-Idiom brackets and the applicative pattern: 
+Idiom Brackets and the Applicative Pattern: 
 
 If you ever see something of the form `f <$> x1 <*> x2....<*> xn`, this is equivalent to the following: 
 
