@@ -1,8 +1,5 @@
 
-Idiom Brackets and the Applicative Pattern[1] 
+Idiom Brackets and the Applicative Pattern(https://tavrinky.github.io/myths.md)
 
-Haskell Myths[2]
+[Haskell Myths](https://tavrinky.github.io/idiombrackets.md)
 
-
-[1]: https://tavrinky.github.io/idiombrackets.md 
-[2]: https://tavrinky.github.io/myths.md
