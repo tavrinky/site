@@ -1,6 +1,6 @@
 
 
-Notes: 
+Idiom brackets and the applicative pattern: 
 
 If you ever see something of the form `f <$> x1 <*> x2....<*> xn`, this is equivalent to the following: 
 
@@ -52,28 +52,3 @@ do
 legally even. 
 
 So, if you wish to write the legal applicative program (2d6), then instead of the cumbersome do statement, or its desugaring (`[1..6] >>= (\d1 -> [1..6] >>= (\d2 -> return $ d1 + d2)`), we can use the aforementioned applicative syntax: `(+) <$> [1..6] <*> [1..6]`. 
-
-
-On a different note, while it is always possible to write a do statement as one ending in a return, it is not always necessary to do so. 
-
-For instance, consider the following do statement. 
-
-```
-do 
-  msg <- getLine
-  putStrLn msg 
-```
-
-This is equivalent to 
-
-```
-do 
-  msg <- getLine 
-  result <- putStrLn msg 
-  return result 
-```
-
-(This also happens to be equal to `do { msg <- getLine; putStrLn msg; return ()}`, but this is only because `putStrLn :: String -> IO ()`.) 
-
-
-
