@@ -1,4 +1,4 @@
-I was one of those people, so, things college was good at: 
+Things college was good at: 
 
 - introducing me to "this is what upper level undergrad/lower level grad <subject> looks like" as a freshman, because as it turns out, there's a huge difference between the papers from academic researchers and papers from ??corporate researchers that I was looking at 
 - having lots of people who have put too much time into studying the classics of the world around me 
@@ -47,3 +47,4 @@ With regards to "read more nonsense", the best source I'd recommend to get start
 [1]: https://www.northcentralcollege.edu/sites/default/files/documents/2018-02/SGBS-Reading-List-edit.pdf
 [2]: https://shimercollege.fandom.com/wiki/Shimer_College_reading_list
 
+ 
