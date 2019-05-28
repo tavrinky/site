@@ -23,4 +23,6 @@ do
 
 (This also happens to be equal to `do { msg <- getLine; putStrLn msg; return ()}`, but this is only because `putStrLn :: String -> IO ()`.) 
 
-#In the absence of extensions, the number of terms with inferrable types is the same as 
+#In the absence of extensions, the number of terms with inferrable types is the same as the number of terms with verifiable types
+
+This is 
