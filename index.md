@@ -3,4 +3,4 @@
 
 [Haskell Myths](https://tavrinky.github.io/site/myths)
 
-[Microserves and Effects Systems](https://tavrinky.github.io/site/effectssystemsmicroservies)
+
